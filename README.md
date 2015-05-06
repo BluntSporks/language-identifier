@@ -11,9 +11,15 @@ Ready to use
 Use go install.
 
 ## Usage
-language-identifier -text [filename] -lex [dirname]
+Usage:
 
-The -text argument specifies the name of the file to check and is a required argument.
+    language-identifier [-lex=DIRNAME] -text=FILENAME
+
+Options:
+
+    -lex=DIRNAME    Name of lexicon directory [default=value of LEX_DATA environment variable]
+    -text=FILENAME  Name of file to check
+language-identifier -text [filename] -lex [dirname]
 
 The -lex argument specifies the name of the lexicon directory that contains the files. It is optional if the `LEX_DATA`
 environment variable is set to the location of the data directory in the lexicon repository, for example:
