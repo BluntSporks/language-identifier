@@ -20,6 +20,6 @@ environment variable is set to the location of the data directory in the lexicon
 
 export LEXICON_DATA=~/go/src/github.com/BluntSporks/lexicon/data
 
-## Short forms
-See [short-names](https://www.github.com/BluntSporks/short-names) for a list of abbreviations used.
+## Programming notes
+See [abbreviation](https://www.github.com/BluntSporks/abbreviation) for a list of abbreviations used.
 
